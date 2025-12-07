@@ -1,0 +1,86 @@
+{
+  "name": "Alchemetryx Consulting Documentation",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#d2a83b",
+      "heading": "#1a1a1a",
+      "text": "#374151"
+    },
+    "dark": {
+      "brand": "#d2a83b",
+      "heading": "#f2f2f2",
+      "text": "#c1c1c1"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              }
+            ]
+          },
+          {
+            "group": "Services",
+            "icon": "settings",
+            "pages": [
+              {
+                "title": "Our Services",
+                "path": "services",
+                "icon": "zap"
+              },
+              {
+                "title": "Methodology",
+                "path": "methodology",
+                "icon": "map"
+              }
+            ]
+          },
+          {
+            "group": "Client Resources",
+            "icon": "users",
+            "pages": [
+              {
+                "title": "Client Onboarding",
+                "path": "client-onboarding",
+                "icon": "user"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "icon": "terminal",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
